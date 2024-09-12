@@ -5,7 +5,7 @@ import Home from "./Home";
 jest.mock("../Sections/Intro/Intro", () => () => <div data-testid="intro-section"></div>);
 jest.mock("../Sections/TopPicks/TopPicks", () => () => <div data-testid="top-picks-section"></div>);
 jest.mock("../Sections/Testimonials/Testimonials", () => () => <div data-testid="testimonials-section"></div>);
-jest.mock("../Sections/About/About", () => () => <div data-testid="about-section"></div>);
+jest.mock("../Sections/About/About", () => () => <div data-testid="about"></div>);
 
 describe("Home component", () => {
   test("renders the Intro, TopPicks, Testimonials, and About sections", () => {
@@ -20,7 +20,7 @@ describe("Home component", () => {
     const testimonialsSection = screen.getByTestId("testimonials-section");
     expect(testimonialsSection).toBeInTheDocument();
 
-    const aboutSection = screen.getByTestId("about-section");
+    const aboutSection = screen.getByTestId("about");
     expect(aboutSection).toBeInTheDocument();
   });
 });
