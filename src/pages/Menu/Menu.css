@@ -49,6 +49,7 @@
       grid-template-columns: 85fr 15fr;
       margin-bottom: 2rem;
       padding: 0 1rem;
+      margin-top: 4rem;
     }
 
     .header-list {
@@ -60,5 +61,16 @@
 
     .starter-title {
       line-height: 10px;
+    }
+
+    .sec-header-container {
+      display: grid;
+      align-items: center;
+      grid-column-gap: 2rem;
+      grid-template: "info image";
+      grid-template-columns: 85fr 15fr;
+      margin-bottom: 2rem;
+      margin-top: 1rem;
+      margin-left: 2rem;
     }
   }

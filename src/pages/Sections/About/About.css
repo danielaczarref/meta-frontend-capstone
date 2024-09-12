@@ -57,9 +57,10 @@
 @media screen and (max-width: 767px) {
   .about {
     height: 100%;
-    padding: 1rem 1rem;
+    padding: 5rem 1rem;
     display: grid;
     align-items: center;
+    text-align: justify;
     grid-column-gap: 2rem;
     grid-template: "info" "image";
     grid-template-rows: 1fr 0.75fr;
@@ -82,22 +83,24 @@
   .about-description {
     color: black;
     padding-right: 6rem;
-    
   }
 
   .staff-description {
-    position: absolute;
-    margin-top: 25rem;
-    margin-right: 45%;
+    position: relative;
+    margin-top: 0rem;
+    margin-right: 0rem;
   }
 
   .about-image-staff {
+    margin-top: 25rem;
+    margin-right: 0rem;
     grid-area: image;
-    display: none;
     width: 100%;
     height: 20rem;
+    justify-self: end;
     border-radius: 16px;
     object-fit: cover;
+    display: none;
   }
 
   .about-image-restaurant {
