@@ -1,10 +1,16 @@
-# Getting Started with Create React App
+# Little Lemon's Restaurant
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my Little Lemon's Restaurant! This project was created for Meta Frontend Developer certification in Coursera. It was built using ReactJS.
+
+Here's how it looks:
+
+![Website Preview](./src/assets/site-screenshot.png)
+
+## Live Preview
+
+Check it out live version: https://meta-frontend-capstone-alpha.vercel.app/
 
 ## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
