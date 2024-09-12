@@ -3,11 +3,7 @@ import Home from "./pages/Home/Home";
 import { Route, Routes } from "react-router-dom";
 import pages from "./utils/pages";
 import Layout from "./layouts/Layout/Layout";
-import Menu from "./pages/Menu/Menu";
-import Orders from "./pages/Orders/Orders";
-import About from "./pages/About/About";
-import Login from "./pages/Login/Login";
-import Reservations from "./pages/Reservations/Reservations";
+import { Menu, About, Reservations, Orders, Login } from "./pages";
 
 const App = () => {
   return (
